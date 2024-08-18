@@ -25,6 +25,19 @@ country_languages = {
     'Luxembourg': {'language': 'Luxembourgish', 'code': 'lb'},
     'Ireland': {'language': 'English', 'code': 'en'},
     'Russia': {'language': 'Russian', 'code': 'ru'},
+    'Ukraine': {'language': 'Ukrainian', 'code': 'uk'},
+    'Belarus': {'language': 'Belarusian', 'code': 'be'},
+    'Romania': {'language': 'Romanian', 'code': 'ro'},
+    'Bulgaria': {'language': 'Bulgarian', 'code': 'bg'},
+    'Serbia': {'language': 'Serbian', 'code': 'sr'},
+    'Croatia': {'language': 'Croatian', 'code': 'hr'},
+    'Slovakia': {'language': 'Slovak', 'code': 'sk'},
+    'Slovenia': {'language': 'Slovenian', 'code': 'sl'},
+    'Lithuania': {'language': 'Lithuanian', 'code': 'lt'},
+    'Latvia': {'language': 'Latvian', 'code': 'lv'},
+    'Estonia': {'language': 'Estonian', 'code': 'et'},
+    'Iceland': {'language': 'Icelandic', 'code': 'is'},
+    'Malta': {'language': 'Maltese', 'code': 'mt'},
 
     # South America
     'Argentina': {'language': 'Spanish', 'code': 'es'},
@@ -34,11 +47,25 @@ country_languages = {
     'Peru': {'language': 'Spanish', 'code': 'es'},
     'Venezuela': {'language': 'Spanish', 'code': 'es'},
     'Ecuador': {'language': 'Spanish', 'code': 'es'},
+    'Bolivia': {'language': 'Spanish', 'code': 'es'},
+    'Paraguay': {'language': 'Spanish', 'code': 'es'},
+    'Uruguay': {'language': 'Spanish', 'code': 'es'},
+    'Guyana': {'language': 'English', 'code': 'en'},
+    'Suriname': {'language': 'Dutch', 'code': 'nl'},
 
     # North America
     'United States': {'language': 'English', 'code': 'en'},
     'Canada': {'language': 'English', 'code': 'en'},
     'Mexico': {'language': 'Spanish', 'code': 'es'},
+    'Cuba': {'language': 'Spanish', 'code': 'es'},
+    'Guatemala': {'language': 'Spanish', 'code': 'es'},
+    'Honduras': {'language': 'Spanish', 'code': 'es'},
+    'El Salvador': {'language': 'Spanish', 'code': 'es'},
+    'Costa Rica': {'language': 'Spanish', 'code': 'es'},
+    'Panama': {'language': 'Spanish', 'code': 'es'},
+    'Jamaica': {'language': 'English', 'code': 'en'},
+    'Haiti': {'language': 'Haitian Creole', 'code': 'ht'},
+    'Dominican Republic': {'language': 'Spanish', 'code': 'es'},
 
     # Asia
     'China': {'language': 'Mandarin', 'code': 'zh-CN'},
@@ -49,6 +76,17 @@ country_languages = {
     'Vietnam': {'language': 'Vietnamese', 'code': 'vi'},
     'Saudi Arabia': {'language': 'Arabic', 'code': 'ar'},
     'United Arab Emirates': {'language': 'Arabic', 'code': 'ar'},
+    'Indonesia': {'language': 'Indonesian', 'code': 'id'},
+    'Malaysia': {'language': 'Malay', 'code': 'ms'},
+    'Pakistan': {'language': 'Urdu', 'code': 'ur'},
+    'Bangladesh': {'language': 'Bengali', 'code': 'bn'},
+    'Philippines': {'language': 'Filipino', 'code': 'fil'},
+    'Sri Lanka': {'language': 'Sinhala', 'code': 'si'},
+    'Nepal': {'language': 'Nepali', 'code': 'ne'},
+    'Myanmar': {'language': 'Burmese', 'code': 'my'},
+    'Kazakhstan': {'language': 'Kazakh', 'code': 'kk'},
+    'Uzbekistan': {'language': 'Uzbek', 'code': 'uz'},
+    'Afghanistan': {'language': 'Pashto', 'code': 'ps'},
 
     # Africa
     'Nigeria': {'language': 'English', 'code': 'en'},
@@ -56,9 +94,40 @@ country_languages = {
     'Egypt': {'language': 'Arabic', 'code': 'ar'},
     'Kenya': {'language': 'Swahili', 'code': 'sw'},
     'Ghana': {'language': 'English', 'code': 'en'},
+    'Ethiopia': {'language': 'Amharic', 'code': 'am'},
+    'Tanzania': {'language': 'Swahili', 'code': 'sw'},
+    'Uganda': {'language': 'English', 'code': 'en'},
+    'Morocco': {'language': 'Arabic', 'code': 'ar'},
+    'Algeria': {'language': 'Arabic', 'code': 'ar'},
+    'Angola': {'language': 'Portuguese', 'code': 'pt'},
+    'Mozambique': {'language': 'Portuguese', 'code': 'pt'},
+    'Zimbabwe': {'language': 'Shona', 'code': 'sn'},
+    'Cote d Ivoire': {'language': 'French', 'code': 'fr'},
+    'Senegal': {'language': 'French', 'code': 'fr'},
+    'Sudan': {'language': 'Arabic', 'code': 'ar'},
 
-    # Australia
-    'Australia': {'language': 'English', 'code': 'en'}
+    # Australia and Oceania
+    'Australia': {'language': 'English', 'code': 'en'},
+    'New Zealand': {'language': 'English', 'code': 'en'},
+    'Papua New Guinea': {'language': 'Tok Pisin', 'code': 'tpi'},
+    'Fiji': {'language': 'Fijian', 'code': 'fj'},
+    'Samoa': {'language': 'Samoan', 'code': 'sm'},
+    'Tonga': {'language': 'Tongan', 'code': 'to'},
+    'Vanuatu': {'language': 'Bislama', 'code': 'bi'},
+
+    # Middle East
+    'Turkey': {'language': 'Turkish', 'code': 'tr'},
+    'Iran': {'language': 'Persian', 'code': 'fa'},
+    'Israel': {'language': 'Hebrew', 'code': 'he'},
+    'Iraq': {'language': 'Arabic', 'code': 'ar'},
+    'Jordan': {'language': 'Arabic', 'code': 'ar'},
+    'Lebanon': {'language': 'Arabic', 'code': 'ar'},
+    'Syria': {'language': 'Arabic', 'code': 'ar'},
+    'Yemen': {'language': 'Arabic', 'code': 'ar'},
+    'Oman': {'language': 'Arabic', 'code': 'ar'},
+    'Kuwait': {'language': 'Arabic', 'code': 'ar'},
+    'Qatar': {'language': 'Arabic', 'code': 'ar'},
+    'Bahrain': {'language': 'Arabic', 'code': 'ar'},
 }
 
 # Function to normalize country names by trimming spaces and capitalizing appropriately.
