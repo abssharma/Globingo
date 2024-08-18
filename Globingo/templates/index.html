@@ -5,45 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Globingo</title>
-    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Raleway:wght@400;700&display=swap">
     <style>
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: 'Poppins', sans-serif;
             background-image: url('static/images/map.png');
             background-size: cover;
-            color: #fff;
+            background-position: center;
             margin: 0;
             padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-position: center;
+            color: #fff;
         }
 
         .container {
-            background: rgba(0, 0, 0, 0.7);
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            background: linear-gradient(135deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.8) 100%);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
             width: 100%;
-            max-width: 400px;
+            max-width: 420px;
             text-align: center;
+            position: relative;
         }
 
         h1 {
-            color: #4CAF50;
-            font-family: 'Trebuchet MS', sans-serif;
-            font-size: 3em;
-            margin-bottom: 20px;
+            color: #00c9a7;
+            font-family: 'Raleway', sans-serif;
+            font-size: 2.5em;
+            margin-bottom: 25px;
         }
 
         form {
-            margin-top: 20px;
+            margin-top: 30px;
         }
 
         label {
-            font-weight: bold;
+            font-weight: 600;
             margin-bottom: 10px;
             display: inline-block;
             font-size: 1.2em;
@@ -51,55 +52,58 @@
 
         input[type="text"] {
             width: 100%;
-            padding: 10px;
-            margin-top: 5px;
+            padding: 12px;
+            margin-top: 8px;
             margin-bottom: 20px;
             border: none;
             border-radius: 5px;
             font-size: 1.1em;
             box-sizing: border-box;
+            background-color: #f9f9f9;
+            color: #333;
         }
 
         input[type="submit"] {
             width: 100%;
-            padding: 12px;
-            background-color: #4CAF50;
+            padding: 14px;
+            background-color: #00c9a7;
             color: white;
             border: none;
             border-radius: 5px;
             cursor: pointer;
             font-size: 1.2em;
-            transition: background-color 0.3s ease;
+            transition: background-color 0.3s ease, transform 0.3s ease;
         }
 
         input[type="submit"]:hover {
-            background-color: #45a049;
+            background-color: #00a88f;
+            transform: translateY(-3px);
         }
 
         h2 {
             color: #f1f1f1;
             font-size: 1.5em;
-            margin-top: 20px;
+            margin-top: 25px;
         }
 
         p {
             font-size: 1.2em;
-            background-color: rgba(255, 255, 255, 0.1);
-            padding: 10px;
-            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 12px;
+            border-radius: 8px;
         }
 
         .icon {
-            width: 50px;
-            height: 50px;
-            margin-bottom: 15px;
+            width: 60px;
+            height: 60px;
+
         }
     </style>
 </head>
 
 <body>
     <div class="container">
-        <h1>Globingo</h1>
+        <h1>Globingo <img src="static/images/logo.png" alt="Globingo Logo" class="icon"></h1>
         <form action="/translate" method="post">
             <label for="country">Enter the country you are going to:</label>
             <input type="text" id="country" name="country" required>
@@ -116,4 +120,5 @@
         {% endif %}
     </div>
 </body>
+
 </html>
