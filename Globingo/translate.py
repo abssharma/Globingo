@@ -41,7 +41,7 @@ country_languages = {
     'Mexico': {'language': 'Spanish', 'code': 'es'},
 
     # Asia
-    'China': {'language': 'Chinese', 'code': 'zh'},
+    'China': {'language': 'Mandarin', 'code': 'zh-CN'},
     'India': {'language': 'Hindi', 'code': 'hi'},
     'Japan': {'language': 'Japanese', 'code': 'ja'},
     'South Korea': {'language': 'Korean', 'code': 'ko'},
